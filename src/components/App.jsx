@@ -29,7 +29,6 @@ function App() {
   //   }, [key, state]);
   //   return [state, setState];
   // }
-
   const formSubmit = ({ name, number }) => {
     const isContact = contacts.find(contact => contact.name === name);
     if (isContact) {
