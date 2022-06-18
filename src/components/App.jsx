@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { nanoid } from 'nanoid';
 
-import Section from './Section';
-import ContactForm from './ContactForm';
-import ContactList from './ContactList';
-import Filter from './Filter';
+import Section from '../components/Section';
+import ContactForm from '../components/ContactForm';
+import ContactList from '../components/ContactList';
+import Filter from '../components/Filter';
 import contactsList from '../contacts.json';
 
 function App() {
